@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mur"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/mur" />
+
+    <item
+        android:id="@+id/profil"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profil" />
+
+    <item
+        android:id="@+id/wishlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="@string/wishlist" />
+    <item
+        android:id="@+id/notifications"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/notifications" />
+
+</menu>
