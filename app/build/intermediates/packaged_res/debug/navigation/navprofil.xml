@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navprofil"
+    app:startDestination="@id/mur">
+
+    <activity
+        android:id="@+id/profil"
+        android:name="com.example.okuri.Profil"
+        android:label="activity_profil"
+        tools:layout="@layout/activity_profil" />
+    <activity
+        android:id="@+id/wishlist"
+        android:name="com.example.okuri.Wishlist"
+        android:label="activity_wishlist"
+        tools:layout="@layout/activity_wishlist" />
+    <activity
+        android:id="@+id/mur"
+        android:name="com.example.okuri.Mur"
+        android:label="activity_mur"
+        tools:layout="@layout/activity_mur" />
+    <activity
+        android:id="@+id/notifications2"
+        android:name="com.example.okuri.Notifications"
+        android:label="activity_notifications"
+        tools:layout="@layout/activity_notifications" />
+</navigation>
