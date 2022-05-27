@@ -8,25 +8,28 @@ import android.view.View;
 import android.widget.Button;
 
 public class Connexion extends AppCompatActivity {
-    private Button buttonlogin;
+    private Button boutonLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connexion);
 
-        // Ouvrir le Mur quand cliqué sur Se connecter
-        buttonlogin = (Button) findViewById(R.id.login);
-        buttonlogin.setOnClickListener(new View.OnClickListener() {
+        // Ouvrir le mur quand cliqué sur Se connecter
+        boutonLogin = (Button) findViewById(R.id.login);
+        boutonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMur();
+                openActivityMur();
             }
         });
+
     }
 
-    public void openMur() {
-        Intent intent = new Intent(this, Mur.class);
+    public void openActivityMur () {
+        Intent intent = new Intent(this, Wishlist.class);
         startActivity(intent);
     }
+
+
 }

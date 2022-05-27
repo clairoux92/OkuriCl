@@ -15,16 +15,16 @@
             android:name=".Notifications"
             android:exported="true" />
         <activity
-            android:name=".Mur"
-            android:exported="true" />
-        <activity
             android:name=".Wishlist"
             android:exported="true" />
         <activity
-            android:name=".Connexion"
+            android:name=".Profil"
             android:exported="true" />
         <activity
-            android:name=".Profil"
+            android:name=".Mur"
+            android:exported="true" />
+        <activity
+            android:name=".Connexion"
             android:exported="true"
             android:label="@string/Okuri">
             <intent-filter>
