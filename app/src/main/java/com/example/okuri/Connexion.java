@@ -27,7 +27,7 @@ public class Connexion extends AppCompatActivity {
     }
 
     public void openActivityMur () {
-        Intent intent = new Intent(this, Wishlist.class);
+        Intent intent = new Intent(this, Mur.class);
         startActivity(intent);
     }
 

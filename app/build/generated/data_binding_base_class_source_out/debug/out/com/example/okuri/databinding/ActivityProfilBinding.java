@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.okuri.R;
@@ -21,9 +20,6 @@ import java.lang.String;
 public final class ActivityProfilBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final FragmentContainerView frag3;
 
   @NonNull
   public final ImageView imageView;
@@ -67,15 +63,13 @@ public final class ActivityProfilBinding implements ViewBinding {
   @NonNull
   public final TextView textView8;
 
-  private ActivityProfilBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView frag3, @NonNull ImageView imageView,
+  private ActivityProfilBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
       @NonNull ImageView imageView3, @NonNull ImageView imageView6, @NonNull ImageView imageView7,
       @NonNull ImageView imageView8, @NonNull BottomNavigationView navp, @NonNull TextView textView,
       @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
       @NonNull TextView textView5, @NonNull TextView textView6, @NonNull TextView textView7,
       @NonNull TextView textView8) {
     this.rootView = rootView;
-    this.frag3 = frag3;
     this.imageView = imageView;
     this.imageView3 = imageView3;
     this.imageView6 = imageView6;
@@ -119,12 +113,6 @@ public final class ActivityProfilBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.frag3;
-      FragmentContainerView frag3 = ViewBindings.findChildViewById(rootView, id);
-      if (frag3 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
@@ -209,7 +197,7 @@ public final class ActivityProfilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProfilBinding((ConstraintLayout) rootView, frag3, imageView, imageView3,
+      return new ActivityProfilBinding((ConstraintLayout) rootView, imageView, imageView3,
           imageView6, imageView7, imageView8, navp, textView, textView2, textView3, textView4,
           textView5, textView6, textView7, textView8);
     }

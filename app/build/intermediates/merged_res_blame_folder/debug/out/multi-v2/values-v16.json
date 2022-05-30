@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.okuri.app-mergeDebugResources-35:/values-v16/values-v16.xml",
+            "outputFile": "com.example.okuri.app-mergeDebugResources-57:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Clairoux\\.gradle\\caches\\transforms-3\\d8338c189490aee58604e111af57865f\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Clairoux\\.gradle\\caches\\transforms-3\\659a2c036689a0fc57cc1c1b88e3597e\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Clairoux\\.gradle\\caches\\transforms-3\\3b1bc201b3bca652ca8cba6f27421397\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Clairoux\\.gradle\\caches\\transforms-3\\b569a81e64adf3d90c876f6f5ef09330\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

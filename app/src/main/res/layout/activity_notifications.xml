@@ -15,16 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/frag"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:defaultNavHost="false"
-            app:navGraph="@navigation/navprofil" />
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/bottom_nav_menu"/>
 
     <ImageView
         android:id="@+id/imageView32"
@@ -91,10 +82,9 @@
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="186dp"
-        android:layout_height="95dp"
+        android:layout_width="191dp"
+        android:layout_height="98dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="1dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/okuritxt" />

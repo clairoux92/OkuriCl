@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Okuri">
         <activity
+            android:name=".Recherche"
+            android:exported="false" />
+        <activity
+            android:name=".Mur"
+            android:exported="true" />
+        <activity
             android:name=".Notifications"
             android:exported="true" />
         <activity
@@ -19,9 +25,6 @@
             android:exported="true" />
         <activity
             android:name=".Profil"
-            android:exported="true" />
-        <activity
-            android:name=".Mur"
             android:exported="true" />
         <activity
             android:name=".Connexion"

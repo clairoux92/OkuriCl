@@ -13,6 +13,7 @@ dimen app_bar_height
 dimen fab_margin
 dimen text_margin
 drawable avat
+drawable avatar
 drawable avocat
 drawable banner
 drawable cadeau
@@ -22,6 +23,7 @@ drawable ic_baseline_article_24
 drawable ic_baseline_list_alt_24
 drawable ic_baseline_notifications_24
 drawable ic_baseline_person_24
+drawable ic_baseline_search_24
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
 drawable ic_launcher_background
@@ -31,9 +33,9 @@ drawable mainbanner
 drawable notifs
 drawable okuritxt
 drawable wishes
+id checkBox
+id checkBox2
 id container
-id frag
-id frag3
 id imageView
 id imageView10
 id imageView11
@@ -63,7 +65,13 @@ id imageView32
 id imageView33
 id imageView34
 id imageView35
+id imageView36
+id imageView37
+id imageView38
+id imageView39
 id imageView4
+id imageView40
+id imageView41
 id imageView5
 id imageView6
 id imageView7
@@ -74,10 +82,11 @@ id login
 id mur
 id navp
 id navprofil
-id notifications
 id notifications2
 id password
 id profil
+id recherche
+id searchView
 id textView
 id textView10
 id textView11
@@ -97,11 +106,14 @@ id textView23
 id textView24
 id textView25
 id textView26
+id textView27
+id textView28
 id textView29
 id textView3
 id textView30
 id textView31
 id textView32
+id textView33
 id textView4
 id textView5
 id textView6
@@ -114,6 +126,7 @@ layout activity_connexion
 layout activity_mur
 layout activity_notifications
 layout activity_profil
+layout activity_recherche
 layout activity_wishlist
 menu bottom_nav_menu
 mipmap ic_launcher

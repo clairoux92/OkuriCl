@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.okuri.R;
@@ -20,9 +19,6 @@ import java.lang.String;
 public final class ActivityNotificationsBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final FragmentContainerView frag;
 
   @NonNull
   public final ImageView imageView25;
@@ -49,13 +45,11 @@ public final class ActivityNotificationsBinding implements ViewBinding {
   public final BottomNavigationView navp;
 
   private ActivityNotificationsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView frag, @NonNull ImageView imageView25,
-      @NonNull ImageView imageView26, @NonNull ImageView imageView27,
-      @NonNull ImageView imageView32, @NonNull ImageView imageView33,
-      @NonNull ImageView imageView34, @NonNull ImageView imageView35,
-      @NonNull BottomNavigationView navp) {
+      @NonNull ImageView imageView25, @NonNull ImageView imageView26,
+      @NonNull ImageView imageView27, @NonNull ImageView imageView32,
+      @NonNull ImageView imageView33, @NonNull ImageView imageView34,
+      @NonNull ImageView imageView35, @NonNull BottomNavigationView navp) {
     this.rootView = rootView;
-    this.frag = frag;
     this.imageView25 = imageView25;
     this.imageView26 = imageView26;
     this.imageView27 = imageView27;
@@ -93,12 +87,6 @@ public final class ActivityNotificationsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.frag;
-      FragmentContainerView frag = ViewBindings.findChildViewById(rootView, id);
-      if (frag == null) {
-        break missingId;
-      }
-
       id = R.id.imageView25;
       ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
       if (imageView25 == null) {
@@ -147,8 +135,8 @@ public final class ActivityNotificationsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityNotificationsBinding((ConstraintLayout) rootView, frag, imageView25,
-          imageView26, imageView27, imageView32, imageView33, imageView34, imageView35, navp);
+      return new ActivityNotificationsBinding((ConstraintLayout) rootView, imageView25, imageView26,
+          imageView27, imageView32, imageView33, imageView34, imageView35, navp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

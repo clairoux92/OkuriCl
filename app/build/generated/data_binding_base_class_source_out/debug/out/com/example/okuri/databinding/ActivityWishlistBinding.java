@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.okuri.R;
@@ -21,9 +20,6 @@ import java.lang.String;
 public final class ActivityWishlistBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final FragmentContainerView frag3;
 
   @NonNull
   public final ImageView imageView14;
@@ -50,7 +46,7 @@ public final class ActivityWishlistBinding implements ViewBinding {
   public final ImageView imageView31;
 
   @NonNull
-  public final ImageView imageView9;
+  public final ImageView imageView36;
 
   @NonNull
   public final BottomNavigationView navp;
@@ -74,16 +70,14 @@ public final class ActivityWishlistBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityWishlistBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView frag3, @NonNull ImageView imageView14,
-      @NonNull ImageView imageView15, @NonNull ImageView imageView18,
-      @NonNull ImageView imageView19, @NonNull ImageView imageView28,
-      @NonNull ImageView imageView29, @NonNull ImageView imageView30,
-      @NonNull ImageView imageView31, @NonNull ImageView imageView9,
-      @NonNull BottomNavigationView navp, @NonNull TextView textView26,
-      @NonNull TextView textView29, @NonNull TextView textView30, @NonNull TextView textView31,
-      @NonNull TextView textView32, @NonNull TextView textView9) {
+      @NonNull ImageView imageView14, @NonNull ImageView imageView15,
+      @NonNull ImageView imageView18, @NonNull ImageView imageView19,
+      @NonNull ImageView imageView28, @NonNull ImageView imageView29,
+      @NonNull ImageView imageView30, @NonNull ImageView imageView31,
+      @NonNull ImageView imageView36, @NonNull BottomNavigationView navp,
+      @NonNull TextView textView26, @NonNull TextView textView29, @NonNull TextView textView30,
+      @NonNull TextView textView31, @NonNull TextView textView32, @NonNull TextView textView9) {
     this.rootView = rootView;
-    this.frag3 = frag3;
     this.imageView14 = imageView14;
     this.imageView15 = imageView15;
     this.imageView18 = imageView18;
@@ -92,7 +86,7 @@ public final class ActivityWishlistBinding implements ViewBinding {
     this.imageView29 = imageView29;
     this.imageView30 = imageView30;
     this.imageView31 = imageView31;
-    this.imageView9 = imageView9;
+    this.imageView36 = imageView36;
     this.navp = navp;
     this.textView26 = textView26;
     this.textView29 = textView29;
@@ -129,12 +123,6 @@ public final class ActivityWishlistBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.frag3;
-      FragmentContainerView frag3 = ViewBindings.findChildViewById(rootView, id);
-      if (frag3 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView14;
       ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
       if (imageView14 == null) {
@@ -183,9 +171,9 @@ public final class ActivityWishlistBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView9;
-      ImageView imageView9 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView9 == null) {
+      id = R.id.imageView36;
+      ImageView imageView36 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView36 == null) {
         break missingId;
       }
 
@@ -231,9 +219,9 @@ public final class ActivityWishlistBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWishlistBinding((ConstraintLayout) rootView, frag3, imageView14,
-          imageView15, imageView18, imageView19, imageView28, imageView29, imageView30, imageView31,
-          imageView9, navp, textView26, textView29, textView30, textView31, textView32, textView9);
+      return new ActivityWishlistBinding((ConstraintLayout) rootView, imageView14, imageView15,
+          imageView18, imageView19, imageView28, imageView29, imageView30, imageView31, imageView36,
+          navp, textView26, textView29, textView30, textView31, textView32, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

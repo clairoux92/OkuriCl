@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.okuri.R;
@@ -21,12 +20,6 @@ import java.lang.String;
 public final class ActivityMurBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final FragmentContainerView frag3;
-
-  @NonNull
-  public final ImageView imageView10;
 
   @NonNull
   public final ImageView imageView11;
@@ -57,6 +50,9 @@ public final class ActivityMurBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView24;
+
+  @NonNull
+  public final ImageView imageView9;
 
   @NonNull
   public final ConstraintLayout mur;
@@ -112,13 +108,12 @@ public final class ActivityMurBinding implements ViewBinding {
   @NonNull
   public final TextView textView25;
 
-  private ActivityMurBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FragmentContainerView frag3, @NonNull ImageView imageView10,
-      @NonNull ImageView imageView11, @NonNull ImageView imageView12,
-      @NonNull ImageView imageView13, @NonNull ImageView imageView16,
-      @NonNull ImageView imageView17, @NonNull ImageView imageView20,
-      @NonNull ImageView imageView21, @NonNull ImageView imageView22,
-      @NonNull ImageView imageView23, @NonNull ImageView imageView24, @NonNull ConstraintLayout mur,
+  private ActivityMurBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView11,
+      @NonNull ImageView imageView12, @NonNull ImageView imageView13,
+      @NonNull ImageView imageView16, @NonNull ImageView imageView17,
+      @NonNull ImageView imageView20, @NonNull ImageView imageView21,
+      @NonNull ImageView imageView22, @NonNull ImageView imageView23,
+      @NonNull ImageView imageView24, @NonNull ImageView imageView9, @NonNull ConstraintLayout mur,
       @NonNull BottomNavigationView navp, @NonNull TextView textView10,
       @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
       @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
@@ -126,8 +121,6 @@ public final class ActivityMurBinding implements ViewBinding {
       @NonNull TextView textView20, @NonNull TextView textView21, @NonNull TextView textView22,
       @NonNull TextView textView23, @NonNull TextView textView24, @NonNull TextView textView25) {
     this.rootView = rootView;
-    this.frag3 = frag3;
-    this.imageView10 = imageView10;
     this.imageView11 = imageView11;
     this.imageView12 = imageView12;
     this.imageView13 = imageView13;
@@ -138,6 +131,7 @@ public final class ActivityMurBinding implements ViewBinding {
     this.imageView22 = imageView22;
     this.imageView23 = imageView23;
     this.imageView24 = imageView24;
+    this.imageView9 = imageView9;
     this.mur = mur;
     this.navp = navp;
     this.textView10 = textView10;
@@ -185,18 +179,6 @@ public final class ActivityMurBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.frag3;
-      FragmentContainerView frag3 = ViewBindings.findChildViewById(rootView, id);
-      if (frag3 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView10;
-      ImageView imageView10 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView10 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView11;
       ImageView imageView11 = ViewBindings.findChildViewById(rootView, id);
       if (imageView11 == null) {
@@ -254,6 +236,12 @@ public final class ActivityMurBinding implements ViewBinding {
       id = R.id.imageView24;
       ImageView imageView24 = ViewBindings.findChildViewById(rootView, id);
       if (imageView24 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView9;
+      ImageView imageView9 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView9 == null) {
         break missingId;
       }
 
@@ -361,9 +349,9 @@ public final class ActivityMurBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMurBinding((ConstraintLayout) rootView, frag3, imageView10, imageView11,
-          imageView12, imageView13, imageView16, imageView17, imageView20, imageView21, imageView22,
-          imageView23, imageView24, mur, navp, textView10, textView11, textView12, textView13,
+      return new ActivityMurBinding((ConstraintLayout) rootView, imageView11, imageView12,
+          imageView13, imageView16, imageView17, imageView20, imageView21, imageView22, imageView23,
+          imageView24, imageView9, mur, navp, textView10, textView11, textView12, textView13,
           textView14, textView15, textView16, textView17, textView18, textView19, textView20,
           textView21, textView22, textView23, textView24, textView25);
     }

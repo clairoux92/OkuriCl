@@ -24,10 +24,18 @@
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/notifications"
+        android:id="@+id/recherche"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Recherche"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/notifications2"
         android:enabled="true"
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/notifications"
         app:showAsAction="ifRoom"/>
+
 
 </menu>
