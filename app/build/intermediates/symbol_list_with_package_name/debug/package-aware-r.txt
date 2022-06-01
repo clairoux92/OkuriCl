@@ -2520,6 +2520,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dino
 drawable ic_baseline_article_24
+drawable ic_baseline_delete_24
 drawable ic_baseline_list_alt_24
 drawable ic_baseline_notifications_24
 drawable ic_baseline_person_24
@@ -2594,6 +2595,10 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id NtrashButton1
+id NtrashButton2
+id NtrashButton3
+id NtrashButton4
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2855,6 +2860,8 @@ id imageView39
 id imageView4
 id imageView40
 id imageView41
+id imageView42
+id imageView43
 id imageView5
 id imageView6
 id imageView7
@@ -3125,6 +3132,10 @@ id textView30
 id textView31
 id textView32
 id textView33
+id textView34
+id textView35
+id textView36
+id textView37
 id textView4
 id textView5
 id textView6
@@ -3155,6 +3166,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id trashButton1
+id trashButton2
+id trashButton3
 id triangle
 id unchecked
 id uniform

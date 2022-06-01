@@ -4,6 +4,7 @@ package com.example.okuri.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -69,6 +70,15 @@ public final class ActivityWishlistBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
+  @NonNull
+  public final ImageButton trashButton1;
+
+  @NonNull
+  public final ImageButton trashButton2;
+
+  @NonNull
+  public final ImageButton trashButton3;
+
   private ActivityWishlistBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView14, @NonNull ImageView imageView15,
       @NonNull ImageView imageView18, @NonNull ImageView imageView19,
@@ -76,7 +86,9 @@ public final class ActivityWishlistBinding implements ViewBinding {
       @NonNull ImageView imageView30, @NonNull ImageView imageView31,
       @NonNull ImageView imageView36, @NonNull BottomNavigationView navp,
       @NonNull TextView textView26, @NonNull TextView textView29, @NonNull TextView textView30,
-      @NonNull TextView textView31, @NonNull TextView textView32, @NonNull TextView textView9) {
+      @NonNull TextView textView31, @NonNull TextView textView32, @NonNull TextView textView9,
+      @NonNull ImageButton trashButton1, @NonNull ImageButton trashButton2,
+      @NonNull ImageButton trashButton3) {
     this.rootView = rootView;
     this.imageView14 = imageView14;
     this.imageView15 = imageView15;
@@ -94,6 +106,9 @@ public final class ActivityWishlistBinding implements ViewBinding {
     this.textView31 = textView31;
     this.textView32 = textView32;
     this.textView9 = textView9;
+    this.trashButton1 = trashButton1;
+    this.trashButton2 = trashButton2;
+    this.trashButton3 = trashButton3;
   }
 
   @Override
@@ -219,9 +234,28 @@ public final class ActivityWishlistBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.trashButton1;
+      ImageButton trashButton1 = ViewBindings.findChildViewById(rootView, id);
+      if (trashButton1 == null) {
+        break missingId;
+      }
+
+      id = R.id.trashButton2;
+      ImageButton trashButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (trashButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.trashButton3;
+      ImageButton trashButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (trashButton3 == null) {
+        break missingId;
+      }
+
       return new ActivityWishlistBinding((ConstraintLayout) rootView, imageView14, imageView15,
           imageView18, imageView19, imageView28, imageView29, imageView30, imageView31, imageView36,
-          navp, textView26, textView29, textView30, textView31, textView32, textView9);
+          navp, textView26, textView29, textView30, textView31, textView32, textView9, trashButton1,
+          trashButton2, trashButton3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

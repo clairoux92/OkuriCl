@@ -1,26 +1,30 @@
 [
     {
-        "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_recherche.xml",
-        "source": "com.example.okuri.app-main-61:/layout/activity_recherche.xml"
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_notifications.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_notifications.xml"
     },
     {
-        "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_notifications.xml",
-        "source": "com.example.okuri.app-main-61:/layout/activity_notifications.xml"
-    },
-    {
-        "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_profil.xml",
-        "source": "com.example.okuri.app-main-61:/layout/activity_profil.xml"
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_profil.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_profil.xml"
     },
     {
         "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_connexion.xml",
         "source": "com.example.okuri.app-main-61:/layout/activity_connexion.xml"
     },
     {
-        "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_wishlist.xml",
-        "source": "com.example.okuri.app-main-61:/layout/activity_wishlist.xml"
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_recherche.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_recherche.xml"
     },
     {
-        "merged": "com.example.okuri.app-mergeDebugResources-58:/layout/activity_mur.xml",
-        "source": "com.example.okuri.app-main-61:/layout/activity_mur.xml"
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_mur.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_mur.xml"
+    },
+    {
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_wishlist.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_wishlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-mergeDebugResources-58:\\layout\\activity_connexion.xml",
+        "source": "C:\\Users\\Clairoux\\.gradle\\daemon\\7.3.3\\com.example.okuri.app-main-61:\\layout\\activity_connexion.xml"
     }
 ]

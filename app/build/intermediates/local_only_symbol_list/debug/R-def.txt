@@ -20,6 +20,7 @@ drawable cadeau
 drawable cuisine
 drawable dino
 drawable ic_baseline_article_24
+drawable ic_baseline_delete_24
 drawable ic_baseline_list_alt_24
 drawable ic_baseline_notifications_24
 drawable ic_baseline_person_24
@@ -33,6 +34,10 @@ drawable mainbanner
 drawable notifs
 drawable okuritxt
 drawable wishes
+id NtrashButton1
+id NtrashButton2
+id NtrashButton3
+id NtrashButton4
 id checkBox
 id checkBox2
 id container
@@ -72,6 +77,8 @@ id imageView39
 id imageView4
 id imageView40
 id imageView41
+id imageView42
+id imageView43
 id imageView5
 id imageView6
 id imageView7
@@ -114,12 +121,19 @@ id textView30
 id textView31
 id textView32
 id textView33
+id textView34
+id textView35
+id textView36
+id textView37
 id textView4
 id textView5
 id textView6
 id textView7
 id textView8
 id textView9
+id trashButton1
+id trashButton2
+id trashButton3
 id username
 id wishlist
 layout activity_connexion

@@ -4,7 +4,9 @@ package com.example.okuri.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -19,6 +21,18 @@ import java.lang.String;
 public final class ActivityNotificationsBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final ImageButton NtrashButton1;
+
+  @NonNull
+  public final ImageButton NtrashButton2;
+
+  @NonNull
+  public final ImageButton NtrashButton3;
+
+  @NonNull
+  public final ImageButton NtrashButton4;
 
   @NonNull
   public final ImageView imageView25;
@@ -42,14 +56,41 @@ public final class ActivityNotificationsBinding implements ViewBinding {
   public final ImageView imageView35;
 
   @NonNull
+  public final ImageView imageView42;
+
+  @NonNull
+  public final ImageView imageView43;
+
+  @NonNull
   public final BottomNavigationView navp;
 
+  @NonNull
+  public final TextView textView34;
+
+  @NonNull
+  public final TextView textView35;
+
+  @NonNull
+  public final TextView textView36;
+
+  @NonNull
+  public final TextView textView37;
+
   private ActivityNotificationsBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ImageButton NtrashButton1, @NonNull ImageButton NtrashButton2,
+      @NonNull ImageButton NtrashButton3, @NonNull ImageButton NtrashButton4,
       @NonNull ImageView imageView25, @NonNull ImageView imageView26,
       @NonNull ImageView imageView27, @NonNull ImageView imageView32,
       @NonNull ImageView imageView33, @NonNull ImageView imageView34,
-      @NonNull ImageView imageView35, @NonNull BottomNavigationView navp) {
+      @NonNull ImageView imageView35, @NonNull ImageView imageView42,
+      @NonNull ImageView imageView43, @NonNull BottomNavigationView navp,
+      @NonNull TextView textView34, @NonNull TextView textView35, @NonNull TextView textView36,
+      @NonNull TextView textView37) {
     this.rootView = rootView;
+    this.NtrashButton1 = NtrashButton1;
+    this.NtrashButton2 = NtrashButton2;
+    this.NtrashButton3 = NtrashButton3;
+    this.NtrashButton4 = NtrashButton4;
     this.imageView25 = imageView25;
     this.imageView26 = imageView26;
     this.imageView27 = imageView27;
@@ -57,7 +98,13 @@ public final class ActivityNotificationsBinding implements ViewBinding {
     this.imageView33 = imageView33;
     this.imageView34 = imageView34;
     this.imageView35 = imageView35;
+    this.imageView42 = imageView42;
+    this.imageView43 = imageView43;
     this.navp = navp;
+    this.textView34 = textView34;
+    this.textView35 = textView35;
+    this.textView36 = textView36;
+    this.textView37 = textView37;
   }
 
   @Override
@@ -87,6 +134,30 @@ public final class ActivityNotificationsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.NtrashButton1;
+      ImageButton NtrashButton1 = ViewBindings.findChildViewById(rootView, id);
+      if (NtrashButton1 == null) {
+        break missingId;
+      }
+
+      id = R.id.NtrashButton2;
+      ImageButton NtrashButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (NtrashButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.NtrashButton3;
+      ImageButton NtrashButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (NtrashButton3 == null) {
+        break missingId;
+      }
+
+      id = R.id.NtrashButton4;
+      ImageButton NtrashButton4 = ViewBindings.findChildViewById(rootView, id);
+      if (NtrashButton4 == null) {
+        break missingId;
+      }
+
       id = R.id.imageView25;
       ImageView imageView25 = ViewBindings.findChildViewById(rootView, id);
       if (imageView25 == null) {
@@ -129,14 +200,52 @@ public final class ActivityNotificationsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView42;
+      ImageView imageView42 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView42 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView43;
+      ImageView imageView43 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView43 == null) {
+        break missingId;
+      }
+
       id = R.id.navp;
       BottomNavigationView navp = ViewBindings.findChildViewById(rootView, id);
       if (navp == null) {
         break missingId;
       }
 
-      return new ActivityNotificationsBinding((ConstraintLayout) rootView, imageView25, imageView26,
-          imageView27, imageView32, imageView33, imageView34, imageView35, navp);
+      id = R.id.textView34;
+      TextView textView34 = ViewBindings.findChildViewById(rootView, id);
+      if (textView34 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView35;
+      TextView textView35 = ViewBindings.findChildViewById(rootView, id);
+      if (textView35 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView36;
+      TextView textView36 = ViewBindings.findChildViewById(rootView, id);
+      if (textView36 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView37;
+      TextView textView37 = ViewBindings.findChildViewById(rootView, id);
+      if (textView37 == null) {
+        break missingId;
+      }
+
+      return new ActivityNotificationsBinding((ConstraintLayout) rootView, NtrashButton1,
+          NtrashButton2, NtrashButton3, NtrashButton4, imageView25, imageView26, imageView27,
+          imageView32, imageView33, imageView34, imageView35, imageView42, imageView43, navp,
+          textView34, textView35, textView36, textView37);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

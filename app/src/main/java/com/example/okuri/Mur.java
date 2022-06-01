@@ -56,11 +56,6 @@ public class Mur extends AppCompatActivity {
             }
         });
 
-        /*
-        NavController navController = Navigation.findNavController(this,  R.id.frag3);
-        NavigationUI.setupWithNavController(bottomNavigationView, navController);
-        */
-
 
     }
 }

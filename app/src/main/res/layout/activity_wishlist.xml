@@ -14,6 +14,7 @@
         android:background="#00FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:src="#95B8BDC3"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/navp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.364"
@@ -213,4 +214,38 @@
         android:textColorLink="#000000"
         app:layout_constraintStart_toEndOf="@+id/imageView31"
         app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+    <ImageButton
+        android:id="@+id/trashButton1"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="virerWish"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageButton
+        android:id="@+id/trashButton2"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="virerWish"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageButton
+        android:id="@+id/trashButton3"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="virerWish"
+        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

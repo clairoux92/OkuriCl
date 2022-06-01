@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu" />
 
     <ImageView
         android:id="@+id/imageView32"
@@ -24,11 +24,22 @@
         android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#FFFFFF"
+        android:src="#95B8BDC3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27"
-        android:src="#95B8BDC3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintStart_toStartOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.523" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -37,11 +48,11 @@
         android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#FFFFFF"
+        android:src="#95B8BDC3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView32"
-        android:src="#95B8BDC3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -50,11 +61,11 @@
         android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#FFFFFF"
+        android:src="#95B8BDC3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView33"
-        android:src="#95B8BDC3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
 
     <ImageView
         android:id="@+id/imageView35"
@@ -63,11 +74,11 @@
         android:layout_marginTop="28dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#FFFFFF"
+        android:src="#95B8BDC3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView34"
-        android:src="#95B8BDC3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -98,4 +109,114 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/avat" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouvel ami !"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toEndOf="@+id/imageView42"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadeau supprimé"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toEndOf="@+id/imageView43"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identifiant ami"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/imageView42"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identifiant ami concerné"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/imageView43"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@drawable/dino"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <ImageButton
+        android:id="@+id/NtrashButton1"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageButton
+        android:id="@+id/NtrashButton2"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageButton
+        android:id="@+id/NtrashButton3"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toTopOf="@+id/imageView34"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageButton
+        android:id="@+id/NtrashButton4"
+        android:layout_width="29dp"
+        android:layout_height="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView35"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
